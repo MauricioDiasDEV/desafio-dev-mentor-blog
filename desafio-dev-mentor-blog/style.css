@@ -1,0 +1,189 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*{
+    /*font-family: 'Manrope', sans-serif;*/
+    font-family: 'Quicksand', sans-serif;
+   
+    
+}
+
+body{
+    background: #E7E7E7;
+}
+
+h1{
+    text-align: center;
+    margin-top: 78px;
+    margin-bottom: 45px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0 5% 0 5%;
+}
+
+.item{
+   
+    width: 386px;
+    /*height: 244px;*/
+    margin-bottom: 40px;
+    border-radius: 7px;
+    margin-right: 15px;
+    background-image: linear-gradient(to left, #327AFF, #05D1F5);
+    box-shadow: 2px 2px #cecece;
+    
+
+}
+
+img {
+    width: 386px;
+    height: 231px;
+    border-top-left-radius: 7.3px;
+    border-top-right-radius: 7.3px;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 27.5px;
+    letter-spacing:-1.5%;
+    font-style: bold;
+    align-items: left;
+    margin-top: 20px;
+    padding:0 25px 0 25px;
+}
+
+p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 23.44px;
+    letter-spacing: -1.5%;
+    font-weight: 500;
+    font-style: Medium;
+    padding: 0 25px 0 25px;
+    margin-bottom: 25px;
+}
+
+button{
+    width: 347px;
+    height: 50px;
+    color: #fff;
+    border-radius: 4px;
+    background-image: linear-gradient(to left, #327AFF, #05D1F5);
+    outline: none;
+    border: solid 1px #05D1F5;
+    padding: 0 25px 0 25px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -1.5%;
+   
+
+}
+
+footer{
+    color: #000;
+    font-weight: 800;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+
+/*Resposivo*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+    .container{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 0 6% 0 8%;
+    }
+
+
+    h1{
+        text-align: center;
+    }
+
+    .item{
+   
+        width: 331px;
+        /*height: 244px;*/
+        margin-bottom: 40px;
+        border-radius: 7px;
+        margin-right: 20px;
+        background-image: linear-gradient(to left, #327AFF, #05D1F5);
+        
+    
+    }
+    
+    img {
+        width: 331.81px;
+        height: 199.08px;
+        border-radius: 6.27745px 6.27745px 0px 0px;
+        background: url(./assets/img6.png);
+        
+    }
+
+    h2 {
+        font-size: 18.91px;
+        font-weight: 700;
+        color: #fff;
+        line-height: 23.64px;
+        letter-spacing:-1.5%;
+        font-style: normal;
+        align-items: left;
+        margin-top: 20px;
+        padding:0 25px 0 25px;
+    }
+    
+
+    p{
+        font-size: 13.75px;
+        color: #fff;
+        line-height: 23.44px;
+        letter-spacing: -1.5%;
+        font-weight: 500;
+        font-style: normal;
+        padding: 0 25px 0 25px;
+        margin-bottom: 25px;
+    }
+
+
+    button{
+        width: 298px;
+        height: 42.98px;
+        color: #fff;
+        border-radius: 3.44px;
+        background-image: linear-gradient(to left, #327AFF, #05D1F5);
+        outline: none;
+        border: solid 1px #05D1F5;
+        padding: 0 25px 0 25px;
+        margin-bottom: 30px;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: -1.5%;
+       
+    
+    }
+
+    /*Rodapé mobile*/
+    footer{
+        color: #000;
+        font-weight: 800;
+        font-size: 14px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    
+    }
+    
+
+    
+}
